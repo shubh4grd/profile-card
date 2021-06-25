@@ -33,7 +33,7 @@ body {
 }
 
 .top-section {
-  padding: 40px 40px;
+  padding: 40px 45px;
   background: #2c2c3baa;
   background: transparent;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
@@ -46,15 +46,18 @@ body {
   top: 20px;
   font-size: 20px;
   cursor: pointer;
-  color: #f4f7fa50;
 }
 
 .message {
   right: 30px;
+  color: #B23121;
 }
 
 .notif {
   left: 30px;
+  color: #4267B2;  
+  background: #f1f1f1;
+  border-radius: 50%;
 }
 
 .pic {
@@ -95,14 +98,13 @@ body {
 }
 
 .name {
-  font-size: 15px;
-  font-family: "Allura", cursive;
-  background: -webkit-linear-gradient(rgb(84, 192, 255), #f3f1f1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin: 0 0 5px 0;
+  font-size: 16px;
+  margin: 0px -40px 5px -40px;
   text-align: center;
+  color: #f1f1f1;
+  letter-spacing: 1.5px;
   text-shadow: rgba(0, 0, 0);
+  text-transform: uppercase;
 }
 
 .tag {
@@ -143,15 +145,17 @@ body {
 }
 
 .social-media i {
-  width: 45px;
-  height: 45px;
-  background: rgba(6, 107, 190, 0.651);
-  border-radius: 50%;
-  color: #f1f1f1;
-  font-size: 25px;
+  display: inline-block;
+  height: 2.8rem;
+  width: 2.8rem;
+  /* background-color: #495057; */
+  color: #fff!important;
+  border-radius: 100%;
   text-align: center;
-  line-height: 50px !important;
-  margin: 0px 5px;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  margin-right: 1rem;
+  background: rgba(6, 107, 190, 0.651);
   position: relative;
 }
 
